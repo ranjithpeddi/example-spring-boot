@@ -23,6 +23,11 @@ public class Application {
 
             String[] beanNames = ctx.getBeanDefinitionNames();
             ConfigProperties configProperties = (ConfigProperties) ctx.getBean("configProperties");
+
+            //View Logging in Console
+            configProperties.printLoggers("Some Value");
+
+            //Reading property file and printing mail.host from application.properties
             System.out.println(configProperties.getHost());
 //            Arrays.sort(beanNames);
 //            for (String beanName : beanNames) {
