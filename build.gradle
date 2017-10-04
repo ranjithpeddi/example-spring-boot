@@ -29,7 +29,7 @@ dependencies {
     // end::jetty[]
     // tag::actuator[]
     compile("org.springframework.boot:spring-boot-starter-actuator")
-    compile("org.springframework.boot:spring-boot-starter-parent")
+    compile("org.springframework.boot:spring-boot-starter-parent:1.5.7.RELEASE")
     compile("org.hibernate:hibernate-validator:5.4.1.Final")
 
 
